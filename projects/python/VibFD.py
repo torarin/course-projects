@@ -9,6 +9,9 @@ We use various boundary conditions.
 """
 import numpy as np
 import matplotlib.pyplot as plt
+import sympy as sp
+
+t = sp.Symbol('t')
 
 class VibSolver:
     """
